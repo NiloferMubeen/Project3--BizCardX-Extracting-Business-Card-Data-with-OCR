@@ -37,7 +37,7 @@ create = '''CREATE TABLE IF NOT EXISTS card_details(
 cur.execute(create)
 conn.commit()
 
-# Setting page congiuration
+# SETTING PAGE CONFIGURATION
 
 st.set_page_config(page_title = 'BizCardX',layout='wide') 
 
@@ -151,7 +151,7 @@ if authentication_status:
                             with col2:
                                 st.markdown("<h5 style='text-align: center; color: #063F27;'>Results Drawn </h5>", unsafe_allow_html=True)                           
 
-                # BOUNDARY BOX DISPLAY
+                # BOUNDARY BOX MARKINGS AND DISPLAY
 
                                 
                                                                                           
